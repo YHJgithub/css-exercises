@@ -11,3 +11,8 @@
 .adjust-font-size {
   font-size: 24px;
 }
+
+#four {
+  background-color: hsl(120, 100%, 75%);
+  font-weight: bold;
+}
