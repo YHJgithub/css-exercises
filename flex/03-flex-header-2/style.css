@@ -46,3 +46,24 @@ a {
 ul {
   list-style-type: none;
 }
+
+/* 解决方案 */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+ul {
+  display: flex;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.right,
+.left {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
